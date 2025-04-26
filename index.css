@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #e94a4a;
+
+}
+.container{
+    padding: 20px;
+    width: 300px;
+    
+    background-color: grey;
+    border-radius: 8px;
+    position: absolute;
+    top: 10%;
+    left: 9%;
+
+}
+.otinfo>p{
+    text-transform: capitalize;
+    font-size: 17px;
+    color: green;
+    display: inline;
+
+}
+.ui{
+    /* height: 40px;
+    width: 100%;
+    border: none; */
+   padding: 10px 60px 10px 61px;
+   border-radius: 10px;
+   border: none;
+}
+.ui::placeholder{
+    color: black;
+font-size: 16px;
+font-weight: 600;
+text-transform: capitalize;
+text-align: center;
+
+
+}
+.container.ui:active{
+background-color: turquoise;
+}
+.infom.flg-name{
+width: 100%;
+}
+.flg-name.flg{
+    height: 60px;
+    width: 100px;
+    margin: auto;
+    margin-top: 20px;
+}
+ .flg >img{
+    padding-top: 10px;
+    padding-left: 70px;
+height: 100px;
+width: 150px;
+border-color: green;
+
+}
+.flg-name >p{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.invalid-mess{
+    color: red;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.er-mess{
+    color: rgb(19, 4, 4);
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.serch-b>i{
+    font-size: 20px;
+    position: absolute;
+    top: 27px;
+    left: 28px;
+}
